@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeeTrees.Tests", "BeeTrees.Tests\BeeTrees.Tests.csproj", "{87CE10D5-3E8F-4991-A419-B03475CF479F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeeTrees", "BeeTrees\BeeTrees.csproj", "{32829256-1DB7-4145-B43B-C3D61F829FB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87CE10D5-3E8F-4991-A419-B03475CF479F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CE10D5-3E8F-4991-A419-B03475CF479F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87CE10D5-3E8F-4991-A419-B03475CF479F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87CE10D5-3E8F-4991-A419-B03475CF479F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32829256-1DB7-4145-B43B-C3D61F829FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32829256-1DB7-4145-B43B-C3D61F829FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32829256-1DB7-4145-B43B-C3D61F829FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32829256-1DB7-4145-B43B-C3D61F829FB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
