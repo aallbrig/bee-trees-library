@@ -1,10 +1,10 @@
 using System.Text;
 
-namespace BeeTrees;
+namespace BeeTrees.treeBased;
 
 public class BehaviorTree
 {
-    public TreeNode RootNode { get; } = new();
+    private TreeNode RootNode { get; } = new();
 
     public override string ToString()
     {
